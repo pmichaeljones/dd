@@ -1,0 +1,21 @@
+%article
+  %table
+    %thead
+      %tr
+        %th Customer Name
+        %th # of Pets
+        %th Email
+        %th Phone Number
+        %th Contact
+    %tbody
+      -5.times do
+        %tr
+          %td
+            = Faker::Name.name
+          %td
+            = rand(4)
+          %td
+            = Faker::Internet.email
+          %td 543-342-6542
+          %td(class="tiny button" style="margin: 2px 5px 2px 5px")
+            Send Email
