@@ -1,21 +1,22 @@
-%article
-  %table
-    %thead
-      %tr
-        %th Customer Name
-        %th # of Pets
-        %th Email
-        %th Phone Number
-        %th Contact
-    %tbody
-      -5.times do
+.row
+  .small-12.small-centered.columns
+    %table
+      %thead
         %tr
-          %td
-            = Faker::Name.name
-          %td
-            = rand(4)
-          %td
-            = Faker::Internet.email
-          %td 543-342-6542
-          %td(class="tiny button" style="margin: 2px 5px 2px 5px")
-            Send Email
+          %th(width="300") Customer Name
+          %th # of Pets
+          %th(width="300") Email
+          %th(width="125") Phone Number
+          %th Contact
+      %tbody
+        -5.times do
+          %tr
+            %td
+              = link_to "#{Faker::Name.name}"
+            %td
+              = rand(4)
+            %td
+              = link_to "#{Faker::Internet.email}"
+            %td 543-342-6542
+            %td(class="tiny button" style="margin: 2px 5px 2px 5px")
+              Send Email
