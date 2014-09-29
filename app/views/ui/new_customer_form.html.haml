@@ -2,45 +2,47 @@
   %form
     .row
       %fieldset
-        %legend New Client Information
+        %legend New Customer Information
         .small-12.large-6.column
           %label
-            Client First Name
+            First Name
             %input.radius(type="text" placeholder="Client First Name")
         .small-12.large-6.column
           %label
-            Client Last Name
+            Last Name
             %input.radius(type="text" placeholder="Client Last Name")
-        .small-6.large-6.column
+        .small-12.large-6.column
           %label
             Address
             %input.radius(type="text" placeholder="Address (555 Main Street)")
-        .small-6.large-6.column
+        .small-12.large-6.column
           %label
             Address Cont'd
             %input.radius(type="text" placeholder="Apt #1")
-        .small-4.large-4.column
+        .small-12.large-4.column
           %label
             City
             %input.radius(type="email" placeholder="City")
-        .small-4.large-4.column
+        .small-12.large-2.column
           %label
             State
             %input.radius(type="email" placeholder="State")
-        .small-4.large-4.column
+        .small-12.large-2.column
           %label
-            Zip Code
+            Zip
             %input.radius(type="text" placeholder="55555")
-        .small-6.large-6.column
-          %label
-            Email Address
-            %input.radius(type="email" placeholder="sally@example.com")
-        .small-6.large-6.column
+        .small-12.large-4.column
           %label
             Phone
             %input.radius(type="text" placeholder="Include Hypens, example: 555-666-7777")
+        .small-12.large-6.column
+          %label
+            Email
+            %input.radius(type="email" placeholder="sally@example.com")
+        .small-12.large-6.column
+          %label
+            Re-Enter Email
+            %input.radius(type="email" placeholder="sally@example.com")
         .small-12.large-12.column
-          .panel.radius
-            After Creating a Customer, You Are Able to Add Pets
-            .small-4.large-4.small-centered.large-centered.column
-              = link_to "Create New Customer", nil, class: 'button'
+          .small-4.large-4.small-centered.large-centered.column
+            = link_to "Create New Customer", nil, class: 'button radius'
