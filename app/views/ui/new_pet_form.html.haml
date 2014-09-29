@@ -5,13 +5,13 @@
       .row
         .large-12.column.panel.callout.radius
           Pet Owner Must be in Database Before Pet can be Added.
-          =link_to "Add New Pet Owner"
+          =link_to "Add New Pet Owner", nil, style:'font-size: 12px;'
         %hr
-        .small-12.large-6.columns
+        .small-12.large-4.columns
           %label
             Pet Name
             %input.radius(type="text" placeholder="Pet Name")
-        .small-12.large-6.columns
+        .small-12.large-4.columns
           %label
             Pet Owner
             %select.radius
@@ -23,8 +23,12 @@
                 John David
               %option(value="Nick Peters")
                 Nick Peters
+        .small-12.large-4.columns
+          %label
+            Breed (Best Guess)
+            %input.radius(type="text" placeholder="Border Collie, Labrador/Terrier Mix, etc")
       .row
-        .small-6.large-3.columns
+        .small-6.large-4.columns
           %label Sex
           %input(type="radio" name="sex" value="Male" id="sexMale")
             %label(for="sexMale")
@@ -32,7 +36,7 @@
           %input(type="radio" name="sex" value="Female" id="sexFemale")
             %label(for="sexFemale")
               Female
-        .small-6.large-3.columns
+        .small-6.large-4.columns
           %label Spayed/Neutered
           %input(type="radio" name="fixed" value="No" id="FixedNo")
             %label(for="FixedNo")
@@ -40,10 +44,17 @@
           %input(type="radio" name="fixed" value="Yes" id="FixedYes")
             %label(for="FixedYes")
               Yes
-        .small-12.large-6.columns
-          %label
-            Breed (Best Guess)
-            %input.radius(type="text" placeholder="Border Collie, Labrador/Terrier Mix, etc")
+        .small-12.large-4.columns
+          %label Vaccinations
+          %input(type="checkbox" id="rabies")
+            %label(for="rabies")
+              Rabies
+          %input(type="checkbox" id="heartworm")
+            %label(for="heartworm")
+              Heartworm
+          %input(type="checkbox" id="werewolf")
+            %label(for="werewolf")
+              Werewolf
       .row
         .large-12.columns
           %label
