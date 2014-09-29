@@ -28,7 +28,7 @@
             Breed (Best Guess)
             %input.radius(type="text" placeholder="Border Collie, Labrador/Terrier Mix, etc")
       .row
-        .small-6.large-4.columns
+        .small-12.large-3.columns
           %label Sex
           %input(type="radio" name="sex" value="Male" id="sexMale")
             %label(for="sexMale")
@@ -36,7 +36,7 @@
           %input(type="radio" name="sex" value="Female" id="sexFemale")
             %label(for="sexFemale")
               Female
-        .small-6.large-4.columns
+        .small-12.large-3.columns
           %label Spayed/Neutered
           %input(type="radio" name="fixed" value="No" id="FixedNo")
             %label(for="FixedNo")
@@ -44,17 +44,20 @@
           %input(type="radio" name="fixed" value="Yes" id="FixedYes")
             %label(for="FixedYes")
               Yes
-        .small-12.large-4.columns
+        .small-12.large-6.columns
           %label Vaccinations
           %input(type="checkbox" id="rabies")
             %label(for="rabies")
               Rabies
-          %input(type="checkbox" id="heartworm")
-            %label(for="heartworm")
-              Heartworm
-          %input(type="checkbox" id="werewolf")
-            %label(for="werewolf")
-              Werewolf
+          %input(type="checkbox" id="canineparvovirus")
+            %label(for="canineparvovirus")
+              Parvovirus
+          %input(type="checkbox" id="distemper")
+            %label(for="distemper")
+              Distemper
+          %input(type="checkbox" id="caninehep")
+            %label(for="caninehep")
+              Hepatitis
       .row
         .large-12.columns
           %label
