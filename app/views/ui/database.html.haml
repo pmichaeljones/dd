@@ -7,6 +7,7 @@
         %th(width="300") Email
         %th(width="125") Phone Number
         %th Contact
+        %th Update
     %tbody
       -5.times do
         %tr
@@ -17,5 +18,7 @@
           %td
             = link_to "#{Faker::Internet.email}"
           %td 543-342-6542
-          %td(class="tiny button" style="margin: 2px 5px 2px 5px")
-            Send Email
+          %td
+            =link_to "Email", nil, class: 'tiny button', style:'margin: 2px 5px 2px 5px'
+          %td
+            =link_to "Update", nil, class: 'tiny button alert', style:'margin: 2px 5px 2px 5px'

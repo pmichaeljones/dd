@@ -1,0 +1,68 @@
+%form
+  .row
+    %fieldset
+      %legend New Pet Form
+      .row
+        .large-12.column.panel.callout.radius
+          Pet Owner Must be in Database Before Pet can be Added.
+          =link_to "Add New Pet Owner"
+        %hr
+        .small-12.large-6.columns
+          %label
+            Pet Name
+            %input.radius(type="text" placeholder="Pet Name")
+        .small-12.large-6.columns
+          %label
+            Pet Owner
+            %select.radius
+              %option(value="Bill Jones")
+                Bill Jones
+              %option(value="Sally Smith")
+                Sally Smith
+              %option(value="John Davis")
+                John David
+              %option(value="Nick Peters")
+                Nick Peters
+      .row
+        .small-6.large-3.columns
+          %label Sex
+          %input(type="radio" name="sex" value="Male" id="sexMale")
+            %label(for="sexMale")
+              Male
+          %input(type="radio" name="sex" value="Female" id="sexFemale")
+            %label(for="sexFemale")
+              Female
+        .small-6.large-3.columns
+          %label Spayed/Neutered
+          %input(type="radio" name="fixed" value="No" id="FixedNo")
+            %label(for="FixedNo")
+              No
+          %input(type="radio" name="fixed" value="Yes" id="FixedYes")
+            %label(for="FixedYes")
+              Yes
+        .small-12.large-6.columns
+          %label
+            Breed (Best Guess)
+            %input.radius(type="text" placeholder="Border Collie, Labrador/Terrier Mix, etc")
+      .row
+        .large-12.columns
+          %label
+            Notes:
+            %textarea.radius(type="text" rows="5")
+      .row
+        .large-12.columns
+          =link_to "Add New Pet", nil, class: 'button radius right'
+
+
+
+  /             <div class="large-6 columns">
+  /     <label>Choose Your Favorite</label>
+  /     <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Red</label>
+  /     <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
+  /   </div>
+  /   <div class="large-6 columns">
+  /     <label>Check these out</label>
+  /     <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+  /     <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+  /   </div>
+  / </div>
