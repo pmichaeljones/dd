@@ -11,6 +11,7 @@ gem 'bcrypt'
 gem "faker"
 gem "fabrication"
 gem 'foundation-rails'
+gem 'foundation-icons-sass-rails'
 
 group :development do
   gem 'sqlite3'

@@ -15,3 +15,24 @@
  *= require foundation_and_overrides
 
  */
+@import 'foundation-icons';
+
+.large-icon {
+  font-size: 72px;
+}
+
+.homepage-size {
+  font-size: 100px;
+}
+
+.medium-icon {
+  font-size: 36px;
+}
+
+.small-icon {
+  font-size: 18px;
+}
+
+.red {
+  color: red;
+}
