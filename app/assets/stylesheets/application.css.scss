@@ -23,6 +23,11 @@
 
 .homepage-size {
   font-size: 100px;
+  color: white;
+}
+
+li p {
+  color: white;
 }
 
 .medium-icon {
@@ -33,6 +38,11 @@
   font-size: 18px;
 }
 
-.red {
-  color: red;
+.dark-grey {
+  background: #323c41;
+}
+
+.light-blue {
+  background: #333385;
+  color: white;
 }
