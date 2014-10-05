@@ -1,8 +1,11 @@
 .contain-to-grid
   .row.show-for-small-only.bottom-border
-    .small-12.columns
+    .small-10.columns
       %h1.mobile-logo Doggy Dashboard
-  .icon-bar.five-up.show-for-small-only
+    .small-2.columns.logout-zone
+      %i.fi-x.medium-icon
+      %p Logout
+  .icon-bar.four-up.show-for-small-only
     %a(class="item")
       %i.fi-home.medium-icon
       %label Home
@@ -15,9 +18,6 @@
     %a(class="item")
       %i.fi-address-book.medium-icon
       %label + Client
-    %a(class="item")
-      %i.fi-x.medium-icon
-      %label Logout
   %nav.top-bar.collapse.show-for-medium-up(role="navigation")
     %ul.title-area
       %li.name

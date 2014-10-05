@@ -59,7 +59,7 @@ li p {
   background-color: #333;
 }
 
-.icon-bar.five-up .item:hover {
+.icon-bar.four-up .item:hover {
   background-color: #008cba;
 }
 
@@ -70,4 +70,15 @@ li p {
 
 .bottom-border {
   border-bottom: 2px white solid;
+}
+
+.logout-zone {
+  text-align: center;
+  color: white;
+}
+
+.logout-zone > p {
+  font: white;
+  font-size: 12px;
+  margin-bottom:
 }
