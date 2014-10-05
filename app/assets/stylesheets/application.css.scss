@@ -22,8 +22,16 @@
 }
 
 .homepage-size {
-  font-size: 100px;
+  font-size: 72px;
   color: white;
+}
+
+.homepage-size:hover + p {
+  opacity: .8;
+}
+
+.homepage-size:hover {
+  opacity: .8;
 }
 
 li p {
