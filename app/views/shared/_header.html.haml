@@ -1,5 +1,21 @@
 .contain-to-grid
-  %nav.top-bar(role="navigation")
+  .icon-bar.five-up.show-for-small-only
+    %a(class="item")
+      %i.fi-home.medium-icon
+      %label Home
+    %a(class="item")
+      %i.fi-mail.medium-icon
+      %label Email
+    %a(class="item")
+      %i.fi-guide-dog.medium-icon
+      %label + Pet
+    %a(class="item")
+      %i.fi-address-book.medium-icon
+      %label + Client
+    %a(class="item")
+      %i.fi-x.medium-icon
+      %label Logout
+  %nav.top-bar.show-for-medium-up(role="navigation")
     %ul.title-area
       %li.name
         %h1= link_to "Doggy Dashboard"
