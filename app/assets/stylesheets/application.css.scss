@@ -55,7 +55,7 @@ li p {
   color: white;
 }
 
-.icon-bar.five-up .item {
+.icon-bar.four-up .item {
   background-color: #333;
 }
 
@@ -74,11 +74,16 @@ li p {
 
 .logout-zone {
   text-align: center;
+}
+
+.mobile-transparent {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  background: transparent;
+  border: 2px solid white;
   color: white;
 }
 
-.logout-zone > p {
-  font: white;
-  font-size: 12px;
-  margin-bottom:
+.mobile-transparent:hover {
+  background: #008cba;
 }
