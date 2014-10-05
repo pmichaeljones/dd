@@ -66,6 +66,7 @@ li p {
 .mobile-logo {
   color: white;
   text-align: center;
+  font-size: 2rem;
 }
 
 .bottom-border {
@@ -76,14 +77,16 @@ li p {
   text-align: center;
 }
 
-.mobile-transparent {
-  margin-top: 10px;
+.button.tiny.mobile-transparent {
+  margin-top: 15px;
   margin-bottom: 5px;
+  margin-left: -7px;
   background: transparent;
   border: 2px solid white;
   color: white;
+  padding: 3px 5px;
 }
 
-.mobile-transparent:hover {
+.button.tiny.mobile-transparent:hover {
   background: #008cba;
 }
