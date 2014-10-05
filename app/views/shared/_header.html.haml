@@ -1,10 +1,10 @@
 .contain-to-grid
-  .row.show-for-small-only.bottom-border
+  .row.show-for-medium-down.bottom-border
     .small-10.columns
       %h2.mobile-logo Doggy Dashboard
     .small-2.columns.logout-zone
       =link_to "Logout", nil, class: 'tiny button radius mobile-transparent'
-  .icon-bar.four-up.show-for-small-only
+  .icon-bar.four-up.show-for-medium-down
     %a(class="item")
       %i.fi-home.medium-icon
       %label Home
@@ -17,7 +17,7 @@
     %a(class="item")
       %i.fi-address-book.medium-icon
       %label + Client
-  %nav.top-bar.collapse.show-for-medium-up(role="navigation")
+  %nav.top-bar.collapse.show-for-large-only(role="navigation")
     %ul.title-area
       %li.name
         %h1= link_to "Doggy Dashboard"

@@ -1,5 +1,16 @@
 .row
-  .small-12.large-12.columns
+  .small-12.columns
+    -5.times do
+      %ul.pricing-table
+        %li.title= link_to "#{Faker::Name.name}"
+        %li.bullet-item= link_to "#{Faker::Internet.email}"
+        %li.bullet-item 456-234-2345
+        %li.bullet-item
+          =link_to "Email", nil, class: 'tiny button', style:'margin: 2px 5px 2px 5px'
+          =link_to "Update", nil, class: 'tiny button alert', style:'margin: 2px 5px 2px 5px'
+
+.row.hide-for-small
+  .large-12.columns
     %table
       %thead
         %tr
