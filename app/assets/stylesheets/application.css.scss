@@ -89,3 +89,7 @@ li p {
 .button.tiny.mobile-transparent:hover {
   background: #008cba;
 }
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background: deepskyblue;
+}

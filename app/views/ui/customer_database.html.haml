@@ -1,6 +1,12 @@
 .row.show-for-medium-down
   .small-12.columns
     %h1.logout-zone Customer Database
+    %select
+      %option(value="" disabled selected)
+        Sory By Last Name:
+      -10.times do
+        %option
+          = "#{Faker::Name.last_name}"
     -5.times do
       %ul.pricing-table
         %li.title= link_to "#{Faker::Name.name}"
