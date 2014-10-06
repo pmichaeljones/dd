@@ -46,15 +46,8 @@ li p {
   font-size: 18px;
 }
 
-.dark-grey {
-  background: #323c41;
-}
-
-
-.light-blue {
-  //background: #333385;
-  color: white;
-  height: 600px;
+.steel-blue {
+  background: steelblue;
 }
 
 .icon-bar.four-up .item {
@@ -100,16 +93,21 @@ li p {
   opacity: .4;
 }
 
-.intro-copy {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
+.homepage-row {
+  text-align: center;
 }
+
 
 .homepage-image {
   position: relative;
+}
+
+.secondary-header {
+  color: white;
+}
+
+.homepage-element {
+  position: absolute;
 }
 
 meh {
