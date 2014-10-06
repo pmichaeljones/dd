@@ -46,6 +46,13 @@ li p {
   font-size: 18px;
 }
 
+.light-grey {
+  background: #f2f2f2;
+}
+
+.light-red {
+  background: red;
+}
 .steel-blue {
   background: steelblue;
 }
@@ -64,7 +71,7 @@ li p {
 }
 
 .white-border-top {
-  border-top: 3px solid white;
+  border-top: 3px solid lightgrey;
 }
 
 .bottom-border {
@@ -101,9 +108,14 @@ li p {
   text-align: center;
 }
 
-
 .homepage-image {
-  position: relative;
+  padding: 20px;
+  opacity: .5;
+}
+
+.homepage-image:hover {
+  padding: 20px;
+  opacity: .75;
 }
 
 .secondary-header {
