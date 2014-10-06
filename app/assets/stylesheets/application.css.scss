@@ -117,6 +117,7 @@ li p {
 
 .homepage-row {
   text-align: center;
+  padding-top: 15px;
 }
 
 .homepage-image {
@@ -164,4 +165,13 @@ meh {
 
 #homepage-blurb {
   font-weight: bold;
+}
+
+.pricing-table .title {
+  background: black;
+}
+
+#table-button {
+  background: black;
+  margin-top: 10px;
 }
