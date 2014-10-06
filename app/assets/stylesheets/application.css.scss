@@ -38,11 +38,11 @@
 }
 
 .homepage-size:hover + p {
-  opacity: .8;
+  opacity: .9;
 }
 
 .homepage-size:hover {
-  opacity: .8;
+  opacity: .9;
 }
 
 li p {
@@ -120,13 +120,13 @@ li p {
 }
 
 .homepage-image {
-  padding: 20px;
-  opacity: .5;
+  padding: 30px;
+  opacity: .75;
 }
 
 .homepage-image:hover {
   padding: 20px;
-  opacity: .75;
+  opacity: 1;
 }
 
 .homepage-footer {
@@ -156,4 +156,12 @@ meh {
 
 #home-list {
   border-bottom: 2px solid white;
+}
+
+#homepage-p-list {
+  border-bottom: 2px solid black;
+}
+
+#homepage-blurb {
+  font-weight: bold;
 }
