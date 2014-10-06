@@ -17,6 +17,17 @@
  */
 @import 'foundation-icons';
 
+.footer-icon {
+  color: white;
+  font-size: 48px;
+  opacity: .5;
+  padding: 15px;
+}
+
+.footer-icon:hover {
+  opacity: 1;
+}
+
 .large-icon {
   font-size: 72px;
 }
@@ -118,6 +129,17 @@ li p {
   opacity: .75;
 }
 
+.homepage-footer {
+  padding-top: 10px;
+  background-color: #3f454d;
+}
+
+.footer-logo {
+  color: white;
+  padding-left: 20px;
+  margin-bottom: -5px;
+}
+
 .secondary-header {
   color: white;
 }
@@ -130,4 +152,8 @@ meh {
     background-image: url('/tmp/bulldog-from-gratisography-50.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+#home-list {
+  border-bottom: 2px solid white;
 }
