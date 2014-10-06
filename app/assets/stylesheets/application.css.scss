@@ -93,3 +93,15 @@ li p {
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   background: deepskyblue;
 }
+
+.foggy {
+  opacity: .4;
+}
+
+.intro-copy {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
