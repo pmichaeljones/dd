@@ -12,6 +12,9 @@ gem "faker"
 gem "fabrication"
 gem 'foundation-rails'
 gem 'foundation-icons-sass-rails'
+gem 'autoprefixer-rails'
+gem 'turbolinks'
+gem 'jbuilder'
 
 group :development do
   gem 'sqlite3'
