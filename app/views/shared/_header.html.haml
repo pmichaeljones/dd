@@ -1,7 +1,10 @@
 .contain-to-grid
   .row.show-for-medium-down.bottom-border
     .small-10.columns
-      %h2.mobile-logo Doggie Dashboard
+      %span.logo-first-word
+        Doggie
+      %span.logo-last-word
+        Dashboard
     .small-2.columns.logout-zone
       =link_to "Logout", nil, class: 'tiny button radius mobile-transparent'
   .icon-bar.four-up.show-for-medium-down
@@ -20,7 +23,10 @@
   %nav.top-bar.collapse.show-for-large-up(role="navigation")
     %ul.title-area
       %li.name
-        %h1= link_to "Doggie Dashboard"
+        %span.logo-first-word
+          Doggie
+        %span.logo-last-word
+          Dashboard
       %li.toggle-topbar.menu-icon
         %span Menu Stuff
     %section.top-bar-section
