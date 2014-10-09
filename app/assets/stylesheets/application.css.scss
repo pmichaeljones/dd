@@ -73,12 +73,7 @@ li p {
 }
 
 .icon-bar.four-up .item:hover {
-  background-color: #008cba;
-}
-
-.mobile-logo {
-  color: white;
-  font-size: 2rem;
+  background-color: #00BFFF;
 }
 
 .white-border-top {
@@ -95,7 +90,7 @@ li p {
 
 .button.tiny.mobile-transparent {
   margin-top: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 9px;
   margin-left: -7px;
   background: transparent;
   border: 2px solid white;
@@ -104,12 +99,9 @@ li p {
 }
 
 .button.tiny.mobile-transparent:hover {
-  background: #008cba;
+  background: #00BFFF;
 }
 
-.top-bar-section li:not(.has-form) a:not(.button):hover {
-  background: deepskyblue;
-}
 
 .foggy {
   opacity: .4;
