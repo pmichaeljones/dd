@@ -102,11 +102,6 @@ li p {
   background: #00BFFF;
 }
 
-
-.foggy {
-  opacity: .4;
-}
-
 .homepage-row {
   text-align: center;
   padding-top: 15px;
@@ -181,4 +176,12 @@ meh {
 
 body {
   font-family: raleway;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background: #00BFFF;
+}
+
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button):hover {
+  background: #00BFFF;
 }
