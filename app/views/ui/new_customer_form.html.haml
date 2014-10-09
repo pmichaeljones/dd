@@ -19,29 +19,42 @@
           %label
             Address Cont'd
             %input.radius(type="text" placeholder="Apt #1")
-        .small-12.large-4.column
+        .small-5.large-4.column
           %label
             City
             %input.radius(type="email" placeholder="City")
-        .small-12.large-2.column
+        .small-3.large-2.column
           %label
             State
             %input.radius(type="email" placeholder="State")
-        .small-12.large-2.column
+        .small-4.large-2.column
           %label
             Zip
             %input.radius(type="text" placeholder="55555")
         .small-12.large-4.column
+        .small-12.large-6.column
           %label
-            Phone
+            Primary Contact Phone
             %input.radius(type="text" placeholder="Include Hypens, example: 555-666-7777")
         .small-12.large-6.column
           %label
-            Email
-            %input.radius(type="email" placeholder="sally@example.com")
-        .small-12.large-6.column
+            Emergency Contact Phone
+            %input.radius(type="text" placeholder="Include Hypens, example: 555-666-7777")
+        .small-12.large-3.column
           %label
-            Re-Enter Email
+            Email (Required)
+            %input.radius(type="email" placeholder="sally@example.com")
+        .small-12.large-3.column
+          %label
+            Re-Enter Email (Required)
+            %input.radius(type="email" placeholder="sally@example.com")
+        .small-12.large-3.column
+          %label
+            Email #2 (Optional)
+            %input.radius(type="email" placeholder="sally@example.com")
+        .small-12.large-3.column
+          %label
+            Re-Enter Email #2 (Optional)
             %input.radius(type="email" placeholder="sally@example.com")
         .small-12.large-12.column.logout-zone
           = link_to "Create New Customer", nil, class: 'button radius'
