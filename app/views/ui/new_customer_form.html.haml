@@ -42,12 +42,14 @@
         %br
         .small-12.large-6.column
           %label
-            Primary Phone Number
-            %input.radius(type="text" placeholder="Include Hypens, example: 555-666-7777")
+            Primary Phone | Format: 555-666-7777
+            %input.radius(type="text" placeholder="Must Include Hypens | 555-666-7777" required=true pattern="[0-9\-]{12}" maxlength="12")
+          %small.error Did you include the hyphens?
         .small-12.large-6.column
           %label
-            Emergency Phone Number
-            %input.radius(type="text" placeholder="Include Hypens, example: 555-666-7777")
+            Emergency Phone | Format: 555-666-7777
+            %input.radius(type="text" placeholder="Must Include Hypens | 555-666-7777" maxlength="12")
+          %small.error Did you include the hyphens?
         .small-12.large-3.column
           %label
             Email #1 (Required)
