@@ -1,16 +1,17 @@
 %section
-  %form
+  %form{"data-abide" => true}
     .row
       %fieldset
         %legend New Customer Information
         .small-12.large-6.column
           %label
             First Name
-            %input.radius(type="text" placeholder="Client First Name")
+            %input.radius(type="text" placeholder="Client First Name" class='radius' required=true pattern='[a-zA-Z]+')
+          %small.error Error Message
         .small-12.large-6.column
           %label
             Last Name
-            %input.radius(type="text" placeholder="Client Last Name")
+            %input.radius(type="text" placeholder="Client Last Name" class='radius' required=true pattern='[a-zA-Z]+')
         .small-12.large-6.column
           %label
             Address
@@ -45,11 +46,11 @@
         .small-12.large-3.column
           %label
             Email #1 (Required)
-            %input.radius(type="email" placeholder="email@example.com")
+            %input.radius(type="email" placeholder="email@example.com" id="email1")
         .small-12.large-3.column
           %label
             Re-Enter Email #1 (Required)
-            %input.radius(type="email" placeholder="email@example.com")
+            %input.radius(type="email" placeholder="email@example.com" data-equalto="email1")
         .small-12.large-3.column
           %label
             Email #2 (Optional)
